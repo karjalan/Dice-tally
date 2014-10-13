@@ -12,7 +12,6 @@ i=num_of_rolls
 
 loop do
     x = rand(1..6)
-    puts x
     if x == 1 
         one << x
         elsif
