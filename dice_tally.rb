@@ -41,4 +41,20 @@ freq[4] = four.count
 freq[5] = five.count
 freq[6] = six.count
 
-puts "You rolled #{freq}"
+av_one = one.count*100 / num_of_rolls
+av_two = two.count*100 / num_of_rolls
+av_three = three.count*100 / num_of_rolls
+av_four = four.count*100 / num_of_rolls
+av_five = five.count*100 / num_of_rolls
+av_six = six.count*100 / num_of_rolls
+
+
+puts "You rolled each number at a frequency of #{freq}"
+
+puts "ONE rolled #{av_one}% of the time."
+puts "TWO rolled #{av_two}% of the time."
+puts "THREE rolled #{av_three}% of the time."
+puts "FOUR rolled #{av_four}% of the time."
+puts "FIVE rolled #{av_five}% of the time"
+puts "SIX rolled #{av_six}% of the time."
+	 
